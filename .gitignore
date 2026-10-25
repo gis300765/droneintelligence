@@ -1,0 +1,21 @@
+# Private rasters, models and generated projects
+/data/
+/models/
+*.tif
+*.tiff
+*.pt
+*.onnx
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+# Build outputs
+/dist/
+*.zip
+.DS_Store
+Thumbs.db
